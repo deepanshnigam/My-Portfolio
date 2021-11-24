@@ -376,7 +376,9 @@ section:nth-child(2n + 1) {
     color: white;
 }
 
-
+.portfolio-details a{
+    color: transparent;
+}
 
 /* Contact Form */
 
