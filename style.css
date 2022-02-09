@@ -4,8 +4,8 @@ body {
     font-size: 30px;
 }
 
-/*body::-webkit-scrollbar { 
-    display: none; 
+/*body::-webkit-scrollbar {
+    display: none;
 }*/
 
 
@@ -366,18 +366,22 @@ section:nth-child(2n + 1) {
     text-align: center;
     padding: 10px;
 }
-
+.portfolio-details a{
+  text-decoration: none;
+  color: transparent;
+}
 .portfolio-image-container:hover {
     box-shadow: 0 0 20px #74ADC8;
 }
 
-.portfolio-image-container:hover .portfolio-details {
+.portfolio-image-container:hover  {
     background-color: #80808078;
-    color: white;
+
 }
 
-.portfolio-details a{
-    color: transparent;
+.portfolio-details:hover a{
+    text-decoration: none;
+    color: lightgrey ;
 }
 
 /* Contact Form */
@@ -583,7 +587,7 @@ button:focus {
 
 
 @media only screen and (max-width: 572px) {
-    
+
     .timeline-box {
         width: 100%;
         left: 10% !important;
@@ -592,11 +596,11 @@ button:focus {
     .bars {
         display: block;
     }
-    
-    
+
+
     .nav-menu {
         display: none;
-    } 
+    }
 }
 
 
@@ -637,4 +641,3 @@ button:focus {
     }
 
 }
-
