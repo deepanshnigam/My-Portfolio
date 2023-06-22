@@ -234,7 +234,7 @@ section:nth-child(2n + 1) {
 
 .timeline-box {
     padding: 5px;
-    width: 43%;
+    width: 40%;
     min-height: 150px;
     position: relative;
     left: 5%;
